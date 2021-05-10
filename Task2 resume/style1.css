@@ -1,0 +1,192 @@
+
+       
+        
+          
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.resume {
+  width: 890px;
+  height: 1220px;
+  margin: 50px auto;
+ 
+}
+.box1 {
+  height: 190px;
+  width: 100%;
+  background-color: gray;
+  position: relative;
+ 
+}
+
+.box4 {
+  height: 60px;
+  width: 53%;
+  background-color: rgb(233, 202, 28);
+  position: absolute;
+  top: 180px;
+  left: 200px;
+  border-radius: 10px;
+}
+
+.box2 {
+  height: 30px;
+  width: 100%;
+  background-color: rgb(214, 214, 214);
+}
+.box3 {
+  height: 30px;
+  width: 100%;
+  background-color: rgb(148, 137, 137);
+}
+.image {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  position: absolute;
+  top: 34px;
+  left: 355px;
+  border-width: 7px;
+  border-color: rgb(233, 202, 28);
+  border-style: dotted;
+}
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+.box5 {
+  height: 30px;
+  width: 100%;
+  border-bottom-style: solid;
+
+  border-width: 0.3px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.box6 {
+  height: 20px;
+  width: 100%;
+}
+
+.left {
+  width: 49%;
+  height: 73%;
+  float: left;
+  border-right-style: solid;
+  border-width: 0.2px;
+}
+
+.right {
+  width: 49%;
+  height: 73%;
+  float: right;
+}
+
+.profile {
+  display: flex;
+}
+
+.pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 20px;
+  border-style: dotted;
+  border-color: rgb(233, 202, 28);
+}
+
+h2 {
+  margin-top: 27px;
+  font-size: 30px;
+  font-weight: 2px;
+  margin-left: -10px;
+  color: gray;
+}
+.txt {
+  margin-left: 26px;
+  
+  text-align: justify;
+  text-justify: inter-word;
+}
+#tec {
+  text-align: center;
+
+  font-weight: 20px;
+}
+
+.job {
+  font-weight: bold;
+  color: black;
+  margin-left: 25px;
+}
+
+.txt1 {
+  display: flex;
+}
+.date {
+  margin-left: 80px;
+}
+.txt2 {
+  margin-left: 25px;
+  font-size: 16px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 18px;
+}
+  li {
+    margin-left: 58px;
+    font-size: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 40px;
+  }
+.date1 {
+  margin-left: 175px;
+}
+
+.skillbox {
+  display: flex;
+}
+.skillname {
+  height: 130px;
+  width: 40%;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.skillrange {
+  height: 130px;
+  width: 60%;
+}
+
+.skillrange > input {
+  padding: 1px;
+  margin-left: 70px;
+}
+
+.skillname2 {
+  height: 80px;
+  width: 40%;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.skillrange2 {
+  height: 80px;
+  width: 60%;
+}
+
+.skillrange2 > input {
+  padding: 1px;
+  margin-left: 70px;
+}
+
+.profile__info {
+  padding-right: 44px;
+}
